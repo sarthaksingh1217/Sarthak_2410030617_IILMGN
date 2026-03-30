@@ -41,26 +41,26 @@ You will need to have the following installed on your machine:
 git clone https://github.com/sarthaksingh1217/Sarthak_2410030617_IILMGN.git
 cd Sarthak_2410030617_IILMGN
 
-### 3. Install Python Dependencies
+## 3. Install Python Dependencies
 Open your terminal and install the required Python libraries:
 Bash
 pip install customtkinter mysql-connector-python requests python-dotenv
 
-### 4. Database Setup 
+## 4. Database Setup 
 1.Open your MySQL client.
 2.Create the SmartTransit database and tables by running the provided SQL commands.
 3.Open database.py and update the password="YOUR_MYSQL_PASSWORD" field in the create_connection()function to match your local MySQL credentials.
 
-### 5. API Key Configuration
+## 5. API Key Configuration
 1.Obtain a free API key from OpenWeatherMap.
 2.Open main.py and replace the placeholder API key with your actual key (or set it up in a .env file).
 
-### 6. Run the Application
+## 6. Run the Application
 Launch the system from your terminal:
 Bash
 python main.py
 
-### Future Scope
+## Future Scope
 * Cloud Database Migration: Hosting the MySQL database on AWS RDS for global accessibility.
 
 * Payment Gateway Simulation: Integrating a sandbox API (e.g., Stripe) to simulate real financial transactions.
